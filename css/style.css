@@ -2,20 +2,25 @@
 
 body {
     font-family: Manrope;
-    margin: 30px;
     padding: 0;
+}
+
+.App {
+    margin: 30px;
+    z-index: 1;
 }
 
 header {
     display: flex;
     justify-content: space-evenly;
 }
+
 p {
     margin: 0;
     padding: 0;
 }
 
-.header_text {
+.header-text {
     margin: 0;
     padding: 5px;
 }
@@ -51,7 +56,7 @@ p {
     justify-content: space-around;
 }
 
-.adresse_text {
+.adresse-text {
     width: 100%;
     padding: 0;
     margin-left: 20px;
@@ -59,7 +64,7 @@ p {
     font-weight: 400;
 }
 
-.arrow_down {
+.arrow-down {
     margin-right: 20px;
     padding: 0;
 }
@@ -75,7 +80,7 @@ p {
     align-items: center;
 }
 
-.search_text {
+.search-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
@@ -94,12 +99,12 @@ p {
     margin-top: 20px;
 }
 
-.large_selection {
+.large-selection {
     display: flex;
     justify-content: space-between;
 }
 
-.Selection_pizza {
+.Selection-pizza {
     width: 148px;
     height: 85px;
     background-color: #F3F3F3;
@@ -117,7 +122,7 @@ p {
     top: 20px;
 }
 
-.Selection_course {
+.Selection-course {
     width: 148px;
     height: 85px;
     background-color: #F3F3F3;
@@ -136,7 +141,7 @@ p {
     top: 20px;
 }
 
-.small_selection {
+.small-selection {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -154,7 +159,7 @@ p {
     margin-bottom: 5px;
 }
 
-.alcool_text {
+.alcool-text {
     text-align: center;
     font-weight: bold;
 }
@@ -171,7 +176,7 @@ p {
     margin-bottom: 5px;
 }
 
-.sushis_text {
+.sushis-text {
     text-align: center;
     font-weight: bold;
 }
@@ -188,7 +193,7 @@ p {
     margin-bottom: 5px;
 }
 
-.burger_text {
+.burger-text {
     text-align: center;
     font-weight: bold;
 }
@@ -205,7 +210,7 @@ p {
     margin-bottom: 5px;
 }
 
-.afficher_text{
+.afficher-text{
     text-align: center;
     font-weight: bold;
 }
@@ -216,4 +221,81 @@ hr {
     background-color: #FF675F;
     height: 10px;
     border: none;
+    border-radius: 5px;
 }
+
+.img-restaurant {
+    margin-top: 10px;
+    height: 124px;
+    background-image: url(../img/Rectangle5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.promo>p{
+    color: white;
+    background-color: #FF675F;
+    font-size: smaller;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.promo {
+    margin-right: 10px;
+}
+
+.text-restaurant {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info {
+    margin: 0;
+    padding: 0;
+}
+
+.Name {
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.Frais{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.Note{
+    background-color:#F3F3F3;
+    border-radius: 50px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.Note>p{
+    margin: 0;
+    padding: 0;
+}
+
+/* .Menu {
+    z-index: 2;
+    height: 100px;
+    width: 100%;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
+    background-color: #FF675F;
+} */
